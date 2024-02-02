@@ -6,7 +6,7 @@ from main import process_message
 webhook = Blueprint("webhook", __name__)
 
 @webhook.route('/webhook', methods=['POST'])
-def handle_webhook():
+def handle_whatsapp_webhook():
     incoming_msg = request.values.get('Body', '')
     response_msg = process_message(incoming_msg)
 

@@ -9,10 +9,12 @@ from flask import g
 from flask_babel import Babel
 import shutil
 
+BOT_NAME = "Bob"
+
 babel = Babel(app)
 
 # Configure OpenAI API
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = os.getenv('')
 
 # Configure OWM (OpenWeatherMap) API
 owm_api_key = os.getenv('OWM_API_KEY')
