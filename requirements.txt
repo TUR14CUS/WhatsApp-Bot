@@ -1,0 +1,9 @@
+Flask==2.0.2
+googletrans==4.0.0-rc1
+langdetect==1.0.9
+openai==0.28.0
+Pillow==8.3.1
+pyjokes==0.6.0
+pyowm==3.3.0
+twilio==6.60.0
+wikipedia==1.4.0
