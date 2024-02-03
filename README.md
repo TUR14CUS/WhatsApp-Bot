@@ -47,6 +47,11 @@ The bot supports various commands that can be sent as messages. Some of the avai
 - `/calc [expression]` - Calculate mathematical expressions
 - `/sysinfo` - Display system information
 - `/guessgame` - Play a guessing game
+- `/guessgame` - Play a guessing game\n'
+- `/rps [rock/paper/scissors]` - Play Rock, Paper, Scissors\n'
+- `/rolldice` - Roll a six-sided dice\n'
+- `/numberguess` - Play a number guessing game\n'
+- `/wordguess` - Play a word guessing game\n'
 
 You can also send questions or images to get responses or stickers.
 
